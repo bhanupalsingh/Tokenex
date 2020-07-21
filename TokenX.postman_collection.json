@@ -1,0 +1,573 @@
+{
+	"info": {
+		"_postman_id": "df7ed816-01d0-4beb-b509-55185b071d35",
+		"name": "TokenX",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Tokenex",
+			"item": [
+				{
+					"name": "Tokenization",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "TX_TokenExID",
+								"value": "2248412938859477",
+								"type": "text"
+							},
+							{
+								"key": "TX_APIKey",
+								"value": "WLYoaIcFziPjHW9njSRfnvo3VaU8Ga4XK1T7djaN",
+								"type": "text"
+							},
+							{
+								"key": "TX_TokenScheme",
+								"value": "1",
+								"type": "text"
+							},
+							{
+								"key": "TX_URL",
+								"value": "https://bioconuat.cluster1.traform.io/Login.do?method=login",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "TX_Field",
+								"value": "Data",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"APIKey\":\"WLYoaIcFziPjHW9njSRfnvo3VaU8Ga4XK1T7djaN\",\n    \"TokenExID\":\"2248412938859477\",\n    \"Data\":\"4111111111111111\",\n    \"TokenScheme\":26\n}\n\n\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://test-api.tokenex.com/TokenServices.svc/REST/Tokenize",
+							"protocol": "https",
+							"host": [
+								"test-api",
+								"tokenex",
+								"com"
+							],
+							"path": [
+								"TokenServices.svc",
+								"REST",
+								"Tokenize"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Tokenization Copy",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "TX_TokenExID",
+								"value": "2248412938859477",
+								"type": "text"
+							},
+							{
+								"key": "TX_APIKey",
+								"value": "WLYoaIcFziPjHW9njSRfnvo3VaU8Ga4XK1T7djaN",
+								"type": "text"
+							},
+							{
+								"key": "TX_TokenScheme",
+								"value": "1",
+								"type": "text"
+							},
+							{
+								"key": "TX_URL",
+								"value": "https://bioconuat.cluster1.traform.io/Login.do?method=login",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "TX_Field",
+								"value": "Data",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"APIKey\":\"WLYoaIcFziPjHW9njSRfnvo3VaU8Ga4XK1T7djaN\",\n    \"TokenExID\":\"2248412938859477\",\n    \"Data\":\"4111111111111111\",\n    \"TokenScheme\":26\n}\n\n\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://test-api.tokenex.com/TokenServices.svc/REST/Tokenize",
+							"protocol": "https",
+							"host": [
+								"test-api",
+								"tokenex",
+								"com"
+							],
+							"path": [
+								"TokenServices.svc",
+								"REST",
+								"Tokenize"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Tokenization Copy Copy",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "TX_TokenExID",
+								"value": "2248412938859477",
+								"type": "text"
+							},
+							{
+								"key": "TX_APIKey",
+								"value": "WLYoaIcFziPjHW9njSRfnvo3VaU8Ga4XK1T7djaN",
+								"type": "text"
+							},
+							{
+								"key": "TX_TokenScheme",
+								"value": "1",
+								"type": "text"
+							},
+							{
+								"key": "TX_URL",
+								"value": "https://bioconuat.cluster1.traform.io/Login.do?method=login",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "TX_Field",
+								"value": "Data",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"APIKey\":\"WLYoaIcFziPjHW9njSRfnvo3VaU8Ga4XK1T7djaN\",\n    \"TokenExID\":\"2248412938859477\",\n    \"Data\":\"4111111111111111\",\n    \"TokenScheme\":26\n}\n\n\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://test-api.tokenex.com/TokenServices.svc/REST/Tokenize",
+							"protocol": "https",
+							"host": [
+								"test-api",
+								"tokenex",
+								"com"
+							],
+							"path": [
+								"TokenServices.svc",
+								"REST",
+								"Tokenize"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Tokenization with cvv",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "TX_TokenExID",
+								"value": "2248412938859477",
+								"type": "text"
+							},
+							{
+								"key": "TX_APIKey",
+								"value": "WLYoaIcFziPjHW9njSRfnvo3VaU8Ga4XK1T7djaN",
+								"type": "text"
+							},
+							{
+								"key": "TX_TokenScheme",
+								"value": "1",
+								"type": "text"
+							},
+							{
+								"key": "TX_URL",
+								"value": "https://bioconuat.cluster1.traform.io/Login.do?method=login",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "TX_Field",
+								"value": "Data",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"APIKey\":\"WLYoaIcFziPjHW9njSRfnvo3VaU8Ga4XK1T7djaN\",\n    \"TokenExID\":\"2248412938859477\",\n    \"Data\":\"4111111111111111\",\n    \"TokenScheme\":26\n}\n\n\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://test-api.tokenex.com/TokenServices.svc/REST/Tokenize",
+							"protocol": "https",
+							"host": [
+								"test-api",
+								"tokenex",
+								"com"
+							],
+							"path": [
+								"TokenServices.svc",
+								"REST",
+								"Tokenize"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeTokenization",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "TX_URL",
+								"value": "https://bioconuat.cluster1.traform.io/rest/trip/getTripsDetailsAir",
+								"type": "text"
+							},
+							{
+								"key": "TX_TokenExID",
+								"value": "2248412938859477",
+								"type": "text"
+							},
+							{
+								"key": "TX_APIKey",
+								"value": "WLYoaIcFziPjHW9njSRfnvo3VaU8Ga4XK1T7djaN",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "TX_TokenScheme",
+								"value": "26",
+								"type": "text"
+							},
+							{
+								"key": "TX_Field",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"card\": {\n        \"type\": \"MC \",\n        \"number\": \"{{{411111rzpcnd1111}}}\",\n        \"expDate\": \"1112\",\n        \"cardValidationNum\": \"123\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://test-api.tokenex.com/TransparentGatewayAPI/Detokenize",
+							"protocol": "https",
+							"host": [
+								"test-api",
+								"tokenex",
+								"com"
+							],
+							"path": [
+								"TransparentGatewayAPI",
+								"Detokenize"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeTokenization Copy",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "TX_URL",
+								"value": "https://sws-crt.cert.havail.sabre.com/v2.4.0/shop/cars",
+								"type": "text"
+							},
+							{
+								"key": "TX_TokenExID",
+								"value": "2248412938859477",
+								"type": "text"
+							},
+							{
+								"key": "TX_APIKey",
+								"value": "WLYoaIcFziPjHW9njSRfnvo3VaU8Ga4XK1T7djaN",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/xml",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:eb=\"http://www.ebxml.org/namespaces/messageHeader\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:xsd=\"http://www.w3.org/1999/XMLSchema\">    <SOAP-ENV:Header>        <eb:MessageHeader SOAP-ENV:mustUnderstand=\"1\" eb:version=\"2.0\">            <eb:From>                <eb:PartyId type=\"urn:x12.org:IO5:01\">1212</eb:PartyId>            </eb:From>            <eb:To>                <eb:PartyId type=\"urn:x12.org:IO5:01\">2323</eb:PartyId>            </eb:To>            <eb:CPAId>VJ6I</eb:CPAId>            <eb:ConversationId>SWS-Test-VJ6I</eb:ConversationId>            <eb:Service eb:type=\"OTA\">OTA_VehResLLSRQ</eb:Service>            <eb:Action>OTA_VehResLLSRQ</eb:Action>            <eb:MessageData>                <eb:MessageId>1001</eb:MessageId>                <eb:Timestamp>2012-06-07T10:00:01</eb:Timestamp>                <eb:TimeToLive>2013-06-06T23:59:59</eb:TimeToLive>            </eb:MessageData>        </eb:MessageHeader>        <wsse:Security xmlns:wsse=\"http://schemas.xmlsoap.org/ws/2002/12/secext\" xmlns:wsu=\"http://schemas.xmlsoap.org/ws/2002/12/utility\">            <wsse:BinarySecurityToken valueType=\"String\" EncodingType=\"wsse:Base64Binary\">Shared/IDL:IceSess\\/SessMgr:1\\.0.IDL/Common/!ICESMS\\/ACPCRTD!ICESMSLB\\/CRT.LB!1586753398865!7138!9</wsse:BinarySecurityToken>        </wsse:Security>    </SOAP-ENV:Header>    <SOAP-ENV:Body>        <OTA_VehResRQ xmlns=\"http://webservices.sabre.com/sabreXML/2011/10\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" Version=\"2.2.0\">            <VehResRQCore>                        <RentalPaymentPref>\t\t\t\t<Guarantee Code=\"G\">\t\t\t\t\t<PaymentCard Code=\"VI\" ExpireDate=\"2021-09\" Number=\"{{{424242Sqc4RY4242}}}\">\t\t\t\t\t\t<PersonName>\t\t\t\t\t\t\t<Surname>SALMAN</Surname>\t\t\t\t\t\t</PersonName>\t\t\t\t\t</PaymentCard>\t\t\t\t</Guarantee>\t\t\t</RentalPaymentPref>                        \t\t\t\t\t\t\t                <VehPrefs>                    <VehPref>                        <VehType>ECAR</VehType>                    </VehPref>                </VehPrefs>                <VehRentalCore PickUpDateTime=\"05-05T06:45\" Quantity=\"1\" ReturnDateTime=\"05-07T07:00\">                    <PickUpLocation LocationCode=\"SFO\"/>                    <ReturnLocation LocationCode=\"SFO\"/>                </VehRentalCore>                <VendorPrefs>                    <VendorPref Code=\"ZT\"/>                </VendorPrefs>            </VehResRQCore>        </OTA_VehResRQ>    </SOAP-ENV:Body></SOAP-ENV:Envelope>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://test-api.tokenex.com/TransparentGatewayAPI/Detokenize",
+							"protocol": "https",
+							"host": [
+								"test-api",
+								"tokenex",
+								"com"
+							],
+							"path": [
+								"TransparentGatewayAPI",
+								"Detokenize"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeTokenization Copy Copy",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "TX_URL",
+								"value": "https://sws-crt.cert.havail.sabre.com/v2.4.0/shop/cars",
+								"type": "text"
+							},
+							{
+								"key": "TX_TokenExID",
+								"value": "2248412938859477",
+								"type": "text"
+							},
+							{
+								"key": "TX_APIKey",
+								"value": "WLYoaIcFziPjHW9njSRfnvo3VaU8Ga4XK1T7djaN",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/xml",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:eb=\"http://www.ebxml.org/namespaces/messageHeader\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:xsd=\"http://www.w3.org/1999/XMLSchema\">    <SOAP-ENV:Header>        <eb:MessageHeader SOAP-ENV:mustUnderstand=\"1\" eb:version=\"2.0\">            <eb:From>                <eb:PartyId type=\"urn:x12.org:IO5:01\">1212</eb:PartyId>            </eb:From>            <eb:To>                <eb:PartyId type=\"urn:x12.org:IO5:01\">2323</eb:PartyId>            </eb:To>            <eb:CPAId>VJ6I</eb:CPAId>            <eb:ConversationId>SWS-Test-VJ6I</eb:ConversationId>            <eb:Service eb:type=\"OTA\">OTA_VehResLLSRQ</eb:Service>            <eb:Action>OTA_VehResLLSRQ</eb:Action>            <eb:MessageData>                <eb:MessageId>1001</eb:MessageId>                <eb:Timestamp>2012-06-07T10:00:01</eb:Timestamp>                <eb:TimeToLive>2013-06-06T23:59:59</eb:TimeToLive>            </eb:MessageData>        </eb:MessageHeader>        <wsse:Security xmlns:wsse=\"http://schemas.xmlsoap.org/ws/2002/12/secext\" xmlns:wsu=\"http://schemas.xmlsoap.org/ws/2002/12/utility\">            <wsse:BinarySecurityToken valueType=\"String\" EncodingType=\"wsse:Base64Binary\">Shared/IDL:IceSess\\/SessMgr:1\\.0.IDL/Common/!ICESMS\\/ACPCRTD!ICESMSLB\\/CRT.LB!1586753398865!7138!9</wsse:BinarySecurityToken>        </wsse:Security>    </SOAP-ENV:Header>    <SOAP-ENV:Body>        <OTA_VehResRQ xmlns=\"http://webservices.sabre.com/sabreXML/2011/10\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" Version=\"2.2.0\">            <VehResRQCore>                        <RentalPaymentPref>\t\t\t\t<Guarantee Code=\"G\">\t\t\t\t\t<PaymentCard Code=\"VI\" ExpireDate=\"2021-09\" Number=\"{{{424242Sqc4RY4242}}}\">\t\t\t\t\t\t<PersonName>\t\t\t\t\t\t\t<Surname>SALMAN</Surname>\t\t\t\t\t\t</PersonName>\t\t\t\t\t</PaymentCard>\t\t\t\t</Guarantee>\t\t\t</RentalPaymentPref>                        \t\t\t\t\t\t\t                <VehPrefs>                    <VehPref>                        <VehType>ECAR</VehType>                    </VehPref>                </VehPrefs>                <VehRentalCore PickUpDateTime=\"05-05T06:45\" Quantity=\"1\" ReturnDateTime=\"05-07T07:00\">                    <PickUpLocation LocationCode=\"SFO\"/>                    <ReturnLocation LocationCode=\"SFO\"/>                </VehRentalCore>                <VendorPrefs>                    <VendorPref Code=\"ZT\"/>                </VendorPrefs>            </VehResRQCore>        </OTA_VehResRQ>    </SOAP-ENV:Body></SOAP-ENV:Envelope>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://test-api.tokenex.com/TransparentGatewayAPI/Detokenize",
+							"protocol": "https",
+							"host": [
+								"test-api",
+								"tokenex",
+								"com"
+							],
+							"path": [
+								"TransparentGatewayAPI",
+								"Detokenize"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeTokenization Copy Copy Copy",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "TX_URL",
+								"value": "https://sws-crt.cert.havail.sabre.com/v2.4.0/shop/cars",
+								"type": "text"
+							},
+							{
+								"key": "TX_TokenExID",
+								"value": "2248412938859477",
+								"type": "text"
+							},
+							{
+								"key": "TX_APIKey",
+								"value": "WLYoaIcFziPjHW9njSRfnvo3VaU8Ga4XK1T7djaN",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/xml",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:eb=\"http://www.ebxml.org/namespaces/messageHeader\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:xsd=\"http://www.w3.org/1999/XMLSchema\">    <SOAP-ENV:Header>        <eb:MessageHeader SOAP-ENV:mustUnderstand=\"1\" eb:version=\"2.0\">            <eb:From>                <eb:PartyId type=\"urn:x12.org:IO5:01\">1212</eb:PartyId>            </eb:From>            <eb:To>                <eb:PartyId type=\"urn:x12.org:IO5:01\">2323</eb:PartyId>            </eb:To>            <eb:CPAId>VJ6I</eb:CPAId>            <eb:ConversationId>SWS-Test-VJ6I</eb:ConversationId>            <eb:Service eb:type=\"OTA\">OTA_VehResLLSRQ</eb:Service>            <eb:Action>OTA_VehResLLSRQ</eb:Action>            <eb:MessageData>                <eb:MessageId>1001</eb:MessageId>                <eb:Timestamp>2012-06-07T10:00:01</eb:Timestamp>                <eb:TimeToLive>2013-06-06T23:59:59</eb:TimeToLive>            </eb:MessageData>        </eb:MessageHeader>        <wsse:Security xmlns:wsse=\"http://schemas.xmlsoap.org/ws/2002/12/secext\" xmlns:wsu=\"http://schemas.xmlsoap.org/ws/2002/12/utility\">            <wsse:BinarySecurityToken valueType=\"String\" EncodingType=\"wsse:Base64Binary\">Shared/IDL:IceSess\\/SessMgr:1\\.0.IDL/Common/!ICESMS\\/ACPCRTD!ICESMSLB\\/CRT.LB!1586753398865!7138!9</wsse:BinarySecurityToken>        </wsse:Security>    </SOAP-ENV:Header>    <SOAP-ENV:Body>        <OTA_VehResRQ xmlns=\"http://webservices.sabre.com/sabreXML/2011/10\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" Version=\"2.2.0\">            <VehResRQCore>                        <RentalPaymentPref>\t\t\t\t<Guarantee Code=\"G\">\t\t\t\t\t<PaymentCard Code=\"VI\" ExpireDate=\"2021-09\" Number=\"{{{424242Sqc4RY4242}}}\">\t\t\t\t\t\t<PersonName>\t\t\t\t\t\t\t<Surname>SALMAN</Surname>\t\t\t\t\t\t</PersonName>\t\t\t\t\t</PaymentCard>\t\t\t\t</Guarantee>\t\t\t</RentalPaymentPref>                        \t\t\t\t\t\t\t                <VehPrefs>                    <VehPref>                        <VehType>ECAR</VehType>                    </VehPref>                </VehPrefs>                <VehRentalCore PickUpDateTime=\"05-05T06:45\" Quantity=\"1\" ReturnDateTime=\"05-07T07:00\">                    <PickUpLocation LocationCode=\"SFO\"/>                    <ReturnLocation LocationCode=\"SFO\"/>                </VehRentalCore>                <VendorPrefs>                    <VendorPref Code=\"ZT\"/>                </VendorPrefs>            </VehResRQCore>        </OTA_VehResRQ>    </SOAP-ENV:Body></SOAP-ENV:Envelope>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://test-api.tokenex.com/TransparentGatewayAPI/Detokenize",
+							"protocol": "https",
+							"host": [
+								"test-api",
+								"tokenex",
+								"com"
+							],
+							"path": [
+								"TransparentGatewayAPI",
+								"Detokenize"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Detoknization direct",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"APIKey\":\"WLYoaIcFziPjHW9njSRfnvo3VaU8Ga4XK1T7djaN\",\n    \"TokenExID\":\"2248412938859477\",\n    \"Token\":\"4242424242424242\"\n}\n\n\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://test-api.tokenex.com/TokenServices.svc/REST/Detokenize",
+							"protocol": "https",
+							"host": [
+								"test-api",
+								"tokenex",
+								"com"
+							],
+							"path": [
+								"TokenServices.svc",
+								"REST",
+								"Detokenize"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "sbtProxy",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "text/xml",
+								"type": "text"
+							},
+							{
+								"key": "Content-Length",
+								"value": "2595",
+								"type": "text"
+							},
+							{
+								"key": "Accept-Encoding",
+								"value": "gzip, deflate",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Basic OTUxOTYzOjA5V1MwNDE5",
+								"type": "text"
+							},
+							{
+								"key": "TX_URL",
+								"value": "https://sws-crt.cert.havail.sabre.com/v2.4.0/shop/cars",
+								"type": "text"
+							},
+							{
+								"key": "TX_TokenExID",
+								"value": "2248412938859477",
+								"type": "text"
+							},
+							{
+								"key": "TX_APIKey",
+								"value": "WLYoaIcFziPjHW9njSRfnvo3VaU8Ga4XK1T7djaN",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:eb=\"http://www.ebxml.org/namespaces/messageHeader\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:xsd=\"http://www.w3.org/1999/XMLSchema\">    <SOAP-ENV:Header>        <eb:MessageHeader SOAP-ENV:mustUnderstand=\"1\" eb:version=\"2.0\">            <eb:From>                <eb:PartyId type=\"urn:x12.org:IO5:01\">1212</eb:PartyId>            </eb:From>            <eb:To>                <eb:PartyId type=\"urn:x12.org:IO5:01\">2323</eb:PartyId>            </eb:To>            <eb:CPAId>VJ6I</eb:CPAId>            <eb:ConversationId>SWS-Test-VJ6I</eb:ConversationId>            <eb:Service eb:type=\"OTA\">OTA_VehResLLSRQ</eb:Service>            <eb:Action>OTA_VehResLLSRQ</eb:Action>            <eb:MessageData>                <eb:MessageId>1001</eb:MessageId>                <eb:Timestamp>2012-06-07T10:00:01</eb:Timestamp>                <eb:TimeToLive>2013-06-06T23:59:59</eb:TimeToLive>            </eb:MessageData>        </eb:MessageHeader>        <wsse:Security xmlns:wsse=\"http://schemas.xmlsoap.org/ws/2002/12/secext\" xmlns:wsu=\"http://schemas.xmlsoap.org/ws/2002/12/utility\">            <wsse:BinarySecurityToken valueType=\"String\" EncodingType=\"wsse:Base64Binary\">Shared/IDL:IceSess\\/SessMgr:1\\.0.IDL/Common/!ICESMS\\/ACPCRTC!ICESMSLB\\/CRT.LB!1587964474798!7417!9</wsse:BinarySecurityToken>        </wsse:Security>    </SOAP-ENV:Header>    <SOAP-ENV:Body>        <OTA_VehResRQ xmlns=\"http://webservices.sabre.com/sabreXML/2011/10\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" Version=\"2.2.0\">            <VehResRQCore>                        <RentalPaymentPref>\t\t\t\t<Guarantee Code=\"G\">\t\t\t\t\t<PaymentCard Code=\"VI\" ExpireDate=\"2021-09\" Number=\"{{{424242Sqc4RY4242}}}\">\t\t\t\t\t\t<PersonName>\t\t\t\t\t\t\t<Surname>SALMAN</Surname>\t\t\t\t\t\t</PersonName>\t\t\t\t\t</PaymentCard>\t\t\t\t</Guarantee>\t\t\t</RentalPaymentPref>                        \t\t\t\t\t\t\t                <VehPrefs>                    <VehPref>                        <VehType>ECAR</VehType>                    </VehPref>                </VehPrefs>                <VehRentalCore PickUpDateTime=\"06-13T13:00\" Quantity=\"1\" ReturnDateTime=\"06-15T07:00\">                    <PickUpLocation LocationCode=\"SFO\"/>                    <ReturnLocation LocationCode=\"SFO\"/>                </VehRentalCore>                <VendorPrefs>                    <VendorPref Code=\"ZE\"/>                </VendorPrefs>            </VehResRQCore>        </OTA_VehResRQ>    </SOAP-ENV:Body></SOAP-ENV:Envelope>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://sbtproxy.dev.traform.io/SBTProxy1/TfService/makeSBTCall",
+							"protocol": "https",
+							"host": [
+								"sbtproxy",
+								"dev",
+								"traform",
+								"io"
+							],
+							"path": [
+								"SBTProxy1",
+								"TfService",
+								"makeSBTCall"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "sbtProxy post",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
